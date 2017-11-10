@@ -1,0 +1,258 @@
+html,body
+  background: #333
+  width: 100%
+  height: 100%
+.panel-wrapper
+  width: 100%
+  background: #333
+  text-align: center
+  ul
+    list-style-type: none
+    padding: 0
+    li
+      color: #FFF
+      padding: 10px
+      margin: 5px
+      height: 100%
+      background: #444
+      button
+        border: none
+        border-radius: 3px
+        height: 30px
+        width: 100%
+        color: #FFF
+.val
+  color: #66CC66
+  font-style: italic
+
+
+#app
+  display: flex
+  justify-content: center
+
+
+.game
+  margin: 0 auto
+  border: 5px solid #222
+  background: #444
+
+
+
+
+
+@media screen and (min-width: 768px)
+  .panel-wrapper
+    ul
+      display: flex
+      li
+          flex: 2 0 0
+
+.health-bar-cont
+  position: relative
+  height: 20px
+  width: 100%
+  background: #000
+  display: flex
+  flex-direction: row
+.health-bar
+  position: relative
+  background: green
+  top: 0
+  left: 0
+  height: 100%
+
+.row
+  display: flex
+  justify-content: center
+  color: red
+
+.cell
+  min-height: 20px
+  min-width: 20px
+  border: 0.1px solid black
+  background:
+    size:  100%
+    color: #d6d1d1
+.floor
+  background: #d6d1d1
+  border: 1px solid rgba(0,0,0,0)
+.player
+  min-height:  20px
+  min-width:  20px
+  border: 0.1px solid rgba(0,0,0,0)
+  background: url('../assets/tile.png') -17px 116px
+  background-size: 309px
+  background-color: #d6d1d1
+
+.enemy-lvl1-1
+  min-height:  20px
+  min-width:  20px
+  border: 0.1px solid rgba(0,0,0,0)
+  background:
+    image: url('../assets/tile.png')
+    size:  309px
+    position: -95px 55px
+    color: #d6d1d1
+
+.enemy-lvl1-2
+  min-height:  20px
+  min-width:  20px
+  border: 0.1px solid rgba(0,0,0,0)
+  background:
+    image: url('../assets/tile.png')
+    size:  309px
+    position: -75px 55px
+    color: #d6d1d1
+
+.enemy-lvl1-3
+  min-height:  20px
+  min-width:  20px
+  border: 0.1px solid rgba(0,0,0,0)
+  background:
+    image: url('../assets/tile.png')
+    size:  309px
+    position: -57px 56px
+    color: #d6d1d1
+
+.enemy-lvl2-1
+  min-height:  20px
+  min-width:  20px
+  border: 0.1px solid rgba(0,0,0,0)
+  background:
+    image: url('../assets/tile.png')
+    size:  309px
+    position: -57px 77px
+    color: #d6d1d1
+
+.enemy-lvl2-2
+  min-height:  20px
+  min-width:  20px
+  border: 0.1px solid rgba(0,0,0,0)
+  background:
+    image: url('../assets/tile.png')
+    size:  309px
+    position: -57px 97px
+    color: #d6d1d1
+
+.enemy-lvl3-1
+  min-height:  20px
+  min-width:  20px
+  border: 0.1px solid rgba(0,0,0,0)
+  background:
+    image: url('../assets/tile.png')
+    size:  309px
+    position: -75px 77px
+    color: #d6d1d1
+
+.enemy-lvl3-2
+  min-height:  20px
+  min-width:  20px
+  border: 0.1px solid rgba(0,0,0,0)
+  background:
+    image: url('../assets/tile.png')
+    size:  309px
+    position: -97px 97px
+    color: #d6d1d1
+
+.enemy-lvl4
+  min-height:  20px
+  min-width:  20px
+  border: 0.1px solid rgba(0,0,0,0)
+  background:
+    image: url('../assets/tile.png')
+    size:  302px
+    position: -113px 133px
+    color: #d6d1d1
+
+.weapon-1
+  min-height:  20px
+  min-width:  20px
+  border: 0.1px solid rgba(0,0,0,0)
+  background:
+    image: url('../assets/tile.png')
+    size:  256px
+    position: -190px -10px
+    color: #d6d1d1
+
+.weapon-2
+  min-height:  20px
+  min-width:  20px
+  border: 0.1px solid rgba(0,0,0,0)
+  background:
+    image: url('../assets/tile.png')
+    size:  256px
+    position: -126px -74px
+    color: #d6d1d1
+
+.weapon-3
+  min-height:  20px
+  min-width:  20px
+  border: 0.1px solid rgba(0,0,0,0)
+  background:
+    image: url('../assets/tile.png')
+    size: 256px
+    position: -140px -42px
+    color: #d6d1d1
+.weapon-4
+  min-height:  20px
+  min-width:  20px
+  border: 0.1px solid rgba(0,0,0,0)
+  background:
+    image: url('../assets/tile.png')
+    size:  254px
+    position: -188px -41px
+    color: #d6d1d1
+
+.potion
+  min-height:  20px
+  min-width:  20px
+  border: 0.1px solid rgba(0,0,0,0)
+  background:
+    image: url('../assets/tile.png')
+    size: 336px
+    position: -252px 82px
+    color: #d6d1d1
+.gate
+  min-height:  20px
+  min-width:  20px
+  border: 0.1px solid rgba(0,0,0,0)
+  background:
+    image: url('../assets/gate.png')
+    size: 100%
+    repeat: no-repeat
+    position:  0
+    color: #d6d1d1
+.redhead
+  min-height:  20px
+  min-width:  20px
+  border: 0.1px solid rgba(0,0,0,0)
+  background:
+    image: url('../assets/tile.png')
+    size: 336px
+    position: -148px 21px
+    color: #d6d1d1
+
+.dead
+  animation-duration: 2s
+  animation-name: dead
+  animation-fill-mode: forwards
+@keyframes dead
+  to
+    filter: invert(90%)
+
+
+.won
+  animation-duration: 3s
+  animation-name: won
+  animation-fill-mode: forwards
+@keyframes won
+  10%
+    filter: brightness(200%)
+  30%
+    filter: brightness(50%)
+  50%
+    filter: brightness(210%)
+  70%
+    filter: brightness(50%)
+  100%
+    filter: brightness(1500%)
